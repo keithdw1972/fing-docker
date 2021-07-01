@@ -1,0 +1,14 @@
+version: "3.9"
+
+networks:
+  fing:
+
+volumes:
+  fing:
+
+services:
+  fing:
+    container_name: fing
+    network:
+      - fing
+    build: .
