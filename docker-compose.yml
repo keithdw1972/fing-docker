@@ -9,6 +9,6 @@ volumes:
 services:
   fing:
     container_name: fing
-    network:
+    networks:
       - fing
     build: .
